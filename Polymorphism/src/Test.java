@@ -4,10 +4,13 @@ public class Test {
     static public int count = 0;
     
     public static void main(String[] args){
+      /*
       Dog dd = new Dog("Puppy");
       ShowAnimal(dd);
       Bird bb = new Bird("Birddy");
       ShowAnimal(bb);
+      */
+      Telephone tmp = new Telephone();
     }
     public static void ShowAnimal(Animal an){
       System.out.println(an.name);
